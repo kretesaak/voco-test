@@ -25,18 +25,24 @@ Peaks olema mobiilisõbralik veebileht.
 
 ## 🏃‍♂️ Programmi kasutamine
 
+Vajalik on serverikeskkonna ja MySQL andmebaasi olemasolu. Kasutasin MAMP-i, mille saab alla laadida [siit](https://www.mamp.info/en/mamp/).
+
 Loo tabel kasutades järgmist SQL päringut:
-`
+```sql
 CREATE TABLE users (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
-`
+```
+
+Loo failist `config.php.example` oma comfig fail nimega `config.php` ning asenda seal andmebaasi parameetrid oma andmebaasi omadega.
+
+Seejärel saad minna oma serveri avalehele (nt http://localhost:8888/) ning programmi katsetada.
 
 ## ✏️ Märkmed
-The server is written in Go. HTML, CSS and JavaScript are used for frontend. SQLite database is used to store data.
+Töös on kasutatud PHP-d, MySQLi ja CSS-i. Serverikeskkonnana kasutasin MAMP-i.
 
 ## 🤴 Autor
-@kretesaak \
+@kretesaak
