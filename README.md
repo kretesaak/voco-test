@@ -3,6 +3,8 @@
 ## 📚 Sissejuhatus
 See projekt on proovitöö Tartu Rakendusliku Kolledži programmeerija ametikohale.
 
+Töö tegemiseks kulus kokku 4 tundi. See oli minu esimene kokkupuude PHP-ga. Otsustasin mitte kasutada JavaScript, kuigi see on kindlasti minu tugevam külg ja olen sellega palju töötanud, kuid selle rakenduse puhul tundus, et see lisab üleliigset keerukust, mis ei ole vajalik. Kõik vajaliku, mille puhul tavaliselt kaaluksin JavaScripti kasutamist, sai siin lihtsalt lahendada PHP abil. Kui oleks vaja näiteks dünaamiliselt lisada midagi juba laetud lehele, siis oleks kindlasti JavaScript selle jaoks parim (näiteks olukorras, kus kasutaja valiku tagajärjel tekib uus input väli). Veetsin aega ka stiilile keskendudes, kuna CSS-iga toimetamine ja pikslite sättimine on üks minu lemmikuid tegevusi JavaScriptiga lehtede dünaamiliseks tegemise kõrval.
+
 ## 📋 Proovitöö kirjeldus
 
 Teha sisselogimisega veebileht.
